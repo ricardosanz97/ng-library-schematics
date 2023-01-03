@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project contains an application (`projects/sandbox`) that uses a created library (`projects/ricardosanz97/ng-lib`).
 
+Project based on [Alain Boudard Medium article](https://coco-boudard.medium.com/add-schematics-to-angular-library-bd5987328d7b) and [Angular Schematics documentation](https://angular.io/guide/schematics).
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
