@@ -7,7 +7,13 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:lib": "ng build @ricardosanz97/ng-lib"
+    "build:lib": "ng build @ricardosanz97/ng-lib",
+    "build:schematics": "tsc -p projects/ricardosanz97/ng-lib/tsconfig.schematics.json",
+    "postbuild:schematics": "copyfiles projects/ricardosanz97/ng-lib/schematics/migrations.json projects/ricardosanz97/ng-lib/schematics/collection.json dist/ricardosanz97/ng-lib/schematics/ -f",
+    "build:all": "npm run build:lib && npm run build:schematics",
+    "pack:lib": "cd dist/ricardosanz97/ng-lib && npm pack",
+    "lib:all": "npm run build:all && npm run pack:lib",
+    "publish:all": "npm run lib:all && npm publish dist/ricardosanz97/ng-lib"
   },
   "private": true,
   "dependencies": {
