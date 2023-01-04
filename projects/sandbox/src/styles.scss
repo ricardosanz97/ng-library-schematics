@@ -1,3 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 // @import "../node_modules/@ricardosanz97/ng-lib/assets/styles.css";
-@import "../../ricardosanz97/ng-lib/assets/styles.css";
+
+// ! In this example we import the styles from the local library.
+// ! When we install the library in another project the import must come from ../node_modules/ricardosanz97/ng-lib/assets/styles.css
+@import "../../../projects/ricardosanz97/ng-lib/assets/styles.css";

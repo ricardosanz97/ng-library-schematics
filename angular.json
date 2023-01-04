@@ -59,7 +59,7 @@
               "projects/sandbox/src/assets",
               {
                 "glob": "**/*",
-                "input": "dist/ricardosanz97/ng-lib/assets",
+                "input": "projects/ricardosanz97/ng-lib/assets",
                 "output": "assets"
               }
             ],
