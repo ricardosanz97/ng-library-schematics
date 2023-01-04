@@ -3,5 +3,6 @@
   "dest": "../../../dist/ricardosanz97/ng-lib",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": ["./styles/*.*", "./assets/*.*"]
 }

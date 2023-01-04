@@ -56,11 +56,14 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/sandbox/src/favicon.ico",
-              "projects/sandbox/src/assets"
+              "projects/sandbox/src/assets",
+              {
+                "glob": "**/*",
+                "input": "dist/ricardosanz97/ng-lib/assets",
+                "output": "assets"
+              }
             ],
-            "styles": [
-              "projects/sandbox/src/styles.scss"
-            ],
+            "styles": ["projects/sandbox/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -126,9 +129,7 @@
               "projects/sandbox/src/favicon.ico",
               "projects/sandbox/src/assets"
             ],
-            "styles": [
-              "projects/sandbox/src/styles.scss"
-            ],
+            "styles": ["projects/sandbox/src/styles.scss"],
             "scripts": []
           }
         }

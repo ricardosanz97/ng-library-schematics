@@ -1,0 +1,9 @@
+body {
+  background-color: yellow;
+}
+
+.avatar {
+  background: url(/assets/avatar-1.png) no-repeat;
+  width: 32px;
+  height: 32px;
+}
